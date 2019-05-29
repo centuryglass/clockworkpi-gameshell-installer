@@ -51,13 +51,13 @@ useSnesKeys=1
 # specific files.
 
 # Path to the directory where the application's files are stored:
-appFileDir="$HOME/Documents/PDF"
+appFileDir="$HOME/Documents/Books"
 
 # All file extensions supported by the application, seperated with commas:
 appExtensions="pdf,epub,xps"
 
 # Title to use for the application file list:
-appFileListTitle="PDF Documents"
+appFileListTitle="Books and Documents"
 
 # Optional path to a file needed to run the application, e.g. a RetroArch core:
 requiredFilePath=""
