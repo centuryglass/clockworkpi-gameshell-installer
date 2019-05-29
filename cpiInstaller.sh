@@ -3,8 +3,8 @@
 # application file directories, display info, and custom keybindings.
 # 
 # As an example, the script is currently set up to install and configure mupdf
-# in the 'Utils' category, loading pdf files from /home/cpi/Documents/PDF./*
-#
+# in the 'Utils' category, loading .pdf, .epub, and .xps files from
+# /home/cpi/Documents/Books/*
 ############################### License: ######################################
 # Copyright (C) 2019 Anthony Brown
 #
@@ -26,7 +26,7 @@
 # Update these values for whatever application you want to install.
 
 # Application display name:
-appName=PDF
+appName=Reader
 
 # Command used to launch the application:
 launchCommand=mupdf
@@ -38,7 +38,7 @@ appDir="$HOME/apps/Menu/60_Utils/$appName"
 iconPath="" 
 
 # If downloading an icon from a URL instead, define it here:
-iconURL="www.wiu.edu/sao/outreach/youth_enrichment/pdf-512.png"
+iconURL="https://publicdomainvectors.org/photos/great-tome.png"
 
 # Define all required debian packages here:
 pkgList=('mupdf' 'xmodmap')
@@ -54,7 +54,7 @@ useSnesKeys=1
 appFileDir="$HOME/Documents/PDF"
 
 # All file extensions supported by the application, seperated with commas:
-appExtensions="pdf"
+appExtensions="pdf,epub,xps"
 
 # Title to use for the application file list:
 appFileListTitle="PDF Documents"
